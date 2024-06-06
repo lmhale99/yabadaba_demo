@@ -1,0 +1,26 @@
+#Python egg metadata
+*.egg-info/
+*.egg
+
+#PyPI dist and build
+dist/
+build/
+dist-old/
+
+#Notebook checkpoints and data
+**/.ipynb_checkpoints/
+**/__pycache__
+
+#pytest cache
+.cache
+.pytest_cache
+
+# mypy cache
+.mypy_cache
+
+# Upload scripts
+upload_package.bash
+update_cython.bash
+
+# visual studio code metadata
+.vscode/
